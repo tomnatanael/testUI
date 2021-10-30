@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #fefefe;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+  
+  .card{
+    background: #fff;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+} 
+  .card-image {
+        
+        height: 220px;
+        margin-bottom: 15px;
+        background-size: cover;
+        border-radius: 15px 15px 0 0 ;
+    
+  }
+  .image1{
+      background-image: url('sungai.jfif');
+  }
+  .image2{
+    background-image: url('gunung.jfif');
+    }
+    .image3{
+    background-image: url('jalan.jfif');
+}
+  
+  .card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .card-bodya {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+  }
+  .icon1{
+    background-image: url('heart.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.icon2{
+    background-image: url('bookmark.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.icon3{
+    background-image: url('pin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+  
